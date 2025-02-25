@@ -48,6 +48,58 @@ class CfgMarkers
 		shadow=0;
 		markerClass="TAW_AUX_MARKERS";
 	};
+	//Point markers
+	class TAW_AUX_MARKER_POINT_AMMO: TAW_AUX_MARKER_BASE
+	{
+		name="Ammunition Supply Point";
+		icon="\TAW_AUX_MARKERS\Data\UI\marker_point_ammo.paa";
+		scope=2;
+	};
+	class TAW_AUX_MARKER_POINT_R3P: TAW_AUX_MARKER_BASE
+	{
+		name="Rearm, Refuel, and Resupply Point";
+		icon="\TAW_AUX_MARKERS\Data\UI\marker_point_r3p.paa";
+		scope=2;
+	};
+	class TAW_AUX_MARKER_POINT_MEDEVAV: TAW_AUX_MARKER_BASE
+	{
+		name="Medical Evacuation Point";
+		icon="\TAW_AUX_MARKERS\Data\UI\marker_point_medevac.paa";
+		scope=2;
+	};
+	class TAW_AUX_MARKER_POINT_CCP: TAW_AUX_MARKER_BASE
+	{
+		name="Casualty Collection Point";
+		icon="\TAW_AUX_MARKERS\Data\UI\marker_point_ccp.paa";
+		scope=2;
+	};
+	class TAW_AUX_MARKER_POINT_CIV: TAW_AUX_MARKER_BASE
+	{
+		name="Civilian Collection Point";
+		icon="\TAW_AUX_MARKERS\Data\UI\marker_point_civ.paa";
+		scope=2;
+	};
+	class TAW_AUX_MARKER_POINT_DETAINEE: TAW_AUX_MARKER_BASE
+	{
+		name="Detainee Collection Point";
+		icon="\TAW_AUX_MARKERS\Data\UI\marker_point_detainee.paa";
+		scope=2;
+	};
+	class TAW_AUX_MARKER_POINT_IPRP: TAW_AUX_MARKER_BASE
+	{
+		name="Isolated Personnel Recovery Point";
+		icon="\TAW_AUX_MARKERS\Data\UI\marker_point_iprp.paa";
+		scope=2;
+	};
+	class TAW_AUX_MARKER_POINT_RALLY: TAW_AUX_MARKER_BASE
+	{
+		name="Rally Point";
+		icon="\TAW_AUX_MARKERS\Data\UI\marker_point_rally.paa";
+		scope=2;
+	};
+
+
+	//Support markers
 	class TAW_AUX_MARKER_DZ: TAW_AUX_MARKER_BASE
 	{
 		name="Drop Zone";
@@ -60,30 +112,12 @@ class CfgMarkers
 		icon="\TAW_AUX_MARKERS\Data\UI\marker_LZ.paa";
 		scope=2;
 	};
-	class TAW_AUX_MARKER_POI: TAW_AUX_MARKER_BASE
-	{
-		name="Point of Intrest";
-		icon="\TAW_AUX_MARKERS\Data\UI\marker_POI.paa";
-		scope=2;
-	};
-	class TAW_AUX_MARKER_CCP: TAW_AUX_MARKER_BASE
-	{
-		name="Casualty Collection Point";
-		icon="\TAW_AUX_MARKERS\Data\UI\marker_CCP.paa";
-		scope=2;
-	};	
 	class TAW_AUX_MARKER_FM: TAW_AUX_MARKER_BASE
 	{
 		name="Fire Mission";
 		icon="\TAW_AUX_MARKERS\Data\UI\marker_FM.paa";
 		scope=2;
 	};
-	// class TAW_AUX_MARKER_FAC: TAW_AUX_MARKER_BASE
-	// {
-	// 	name="Forward Air Controller";
-	// 	icon="\TAW_AUX_MARKERS\Data\UI\marker_FAC.paa";
-	// 	scope=2;
-	// };
 
 	//Add squad markers
 	class TAW_AUX_MARKER_ALPHA: TAW_AUX_MARKER_BASE
